@@ -84,27 +84,27 @@ const TimeManagement = () => {
 
           <div className="space-y-5">
             <div className="flex justify-between items-center text-sm">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center text-black gap-2">
                 <span className="w-3 h-3 rounded-full bg-blue-600"></span>
                 Branding
               </div>
-              <span>17h 30m</span>
+              <span className="text-black">17h 30m</span>
             </div>
 
             <div className="flex justify-between items-center text-sm">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center text-black gap-2">
                 <span className="w-3 h-3 rounded-full bg-cyan-500"></span>
                 User Interface
               </div>
-              <span>23h 30m</span>
+              <span className="text-black">23h 30m</span>
             </div>
 
             <div className="flex justify-between items-center text-sm">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center text-black gap-2">
                 <span className="w-3 h-3 rounded-full bg-red-500"></span>
                 Illustration
               </div>
-              <span>6h 30m</span>
+              <span className="text-black">6h 30m</span>
             </div>
           </div>
         </div>

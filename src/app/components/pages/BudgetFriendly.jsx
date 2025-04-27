@@ -24,8 +24,8 @@ const BudgetFriendly = () => {
           <h3 className="text-gray-800 font-semibold text-lg mb-2">
             Basic plan
           </h3>
-          <div className="text-3xl font-bold mb-2">
-            $10<span className="text-lg font-normal text-gray-600">/mth</span>
+          <div className="text-3xl font-bold mb-2 text-black">
+            $10<span className="text-lg font-normal">/mth</span>
           </div>
           <p className="text-gray-500 mb-6">Our most popular plan.</p>
 
@@ -64,8 +64,8 @@ const BudgetFriendly = () => {
           <h3 className="text-gray-800 font-semibold text-lg mb-2">
             Business plan
           </h3>
-          <div className="text-3xl font-bold mb-2">
-            $20<span className="text-lg font-normal text-gray-600">/mth</span>
+          <div className="text-3xl font-bold mb-2 text-black">
+            $20<span className="text-lg font-normal">/mth</span>
           </div>
           <p className="text-gray-500 mb-6">Growing teams up to 20 users.</p>
 
@@ -104,8 +104,8 @@ const BudgetFriendly = () => {
           <h3 className="text-gray-800 font-semibold text-lg mb-2">
             Enterprise plan
           </h3>
-          <div className="text-3xl font-bold mb-2">
-            $40<span className="text-lg font-normal text-gray-600">/mth</span>
+          <div className="text-3xl font-bold mb-2 text-black">
+            $40<span className="text-lg font-normal">/mth</span>
           </div>
           <p className="text-gray-500 mb-6">
             Advanced features + unlimited users.

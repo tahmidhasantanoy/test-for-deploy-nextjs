@@ -74,7 +74,7 @@ const TimeTracking = () => {
       <div className="relative grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 w-full max-w-7xl mx-auto">
         {/* Left Card */}
         <div className="relative bg-white rounded-xl shadow-md p-6 -top-40 xl:scale-90 flex flex-col">
-          <h3 className="font-semibold mb-4 whitespace-nowrap text-center">
+          <h3 className="font-semibold mb-4 whitespace-nowrap text-black text-center">
             Income vs Expenses
           </h3>
           <div className="h-40">
@@ -92,18 +92,18 @@ const TimeTracking = () => {
 
         <div className="relative bg-white rounded-xl shadow-md p-8 xl:scale-105 flex flex-col justify-between">
           <div className="flex flex-wrap md:flex-nowrap justify-between items-center mb-4 gap-4">
-            <h3 className="font-semibold whitespace-nowrap text-lg">
+            <h3 className="font-semibold whitespace-nowrap text-black text-lg">
               Time Tracking
             </h3>
 
             <div className="flex items-center gap-3">
-              <h3 className="font-semibold text-[10px] whitespace-nowrap">
+              <h3 className="font-semibold text-[10px] text-black whitespace-nowrap">
                 This month
               </h3>
-              <h3 className="font-semibold text-[10px] whitespace-nowrap">
+              <h3 className="font-semibold text-[10px] text-black whitespace-nowrap">
                 All time
               </h3>
-              <button className="bg-gray-200 px-3 py-2 rounded-lg text-sm whitespace-nowrap">
+              <button className="bg-gray-200 px-3 py-2 rounded-lg text-sm text-black whitespace-nowrap">
                 Last 7 days
               </button>
             </div>
@@ -123,7 +123,7 @@ const TimeTracking = () => {
 
         {/* Right Card */}
         <div className="relative bg-white rounded-xl shadow-md p-6 -top-28 xl:scale-90 flex flex-col">
-          <h3 className="font-semibold mb-4 whitespace-nowrap text-center">
+          <h3 className="font-semibold mb-4 whitespace-nowrap text-black text-center">
             Time vs Budget
           </h3>
           <div className="h-40">

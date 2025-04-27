@@ -25,7 +25,7 @@ const GoodUI = () => {
           transition={{ duration: 0.6 }}
           className="bg-white border rounded-2xl p-6 shadow-md space-y-6"
         >
-          <p>Top Clients</p>
+          <p className="text-black">Top Clients</p>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-gray-300 rounded-full"></div>

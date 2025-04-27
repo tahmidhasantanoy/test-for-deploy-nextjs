@@ -31,10 +31,11 @@ const Trail = () => {
               <input
                 type="email"
                 placeholder="Enter Email"
-                className="pl-10 px-6 py-3 rounded-full text-black focus:outline-none w-full"
+                className="pl-10 px-6 py-3 rounded-full text-black focus:outline-none w-full bg-white"
               />
             </div>
           </div>
+
           <button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-full">
             Request Trial
           </button>
