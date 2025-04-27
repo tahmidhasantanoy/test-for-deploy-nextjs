@@ -1,4 +1,4 @@
-# Project Setup Instructions
+### Project Setup Instructions
 
 ## Clone the Project
 
@@ -41,3 +41,7 @@ http://localhost:3000
 ```
 
 in your browser to view it.
+
+## Vercel Deployed Live link :
+
+Open [https://coca-nu.vercel.app/](https://coca-nu.vercel.app/) with your browser to see
