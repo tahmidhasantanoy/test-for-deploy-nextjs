@@ -44,9 +44,11 @@ const Header = () => {
 
         {/* Right - Button or Icon */}
         <div className="flex items-center space-x-4">
-          <button className="hidden md:inline-block text-sm bg-[#426AE2] text-white px-4 py-2 rounded-md hover:bg-blue-700">
-            Login
-          </button>
+          <Link href="/login" className="text-white hover:text-blue-600">
+            <button className="hidden md:inline-block text-sm bg-[#426AE2] text-white px-4 py-2 rounded-md hover:bg-blue-700">
+              Login
+            </button>
+          </Link>
           <button className="text-sm bg-[#23F0A9] text-black px-5 py-4 rounded-3xl">
             Sign up for free
           </button>
