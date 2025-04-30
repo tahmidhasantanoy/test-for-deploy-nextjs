@@ -11,7 +11,7 @@ const Service = () => {
           Our services/products are trusted by industry leaders
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-center max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center max-w-4xl mx-auto">
           {[
             "videohive",
             "codecanyon",
@@ -24,7 +24,7 @@ const Service = () => {
             <div key={idx} className="flex items-center gap-2 justify-center">
               <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
               <span className="text-gray-700 font-medium capitalize">
-                {logo}
+                {logo} {/* Can't find the logo */}
               </span>
             </div>
           ))}

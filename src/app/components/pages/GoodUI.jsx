@@ -34,7 +34,7 @@ const GoodUI = () => {
                 <p className="text-sm text-gray-500">New York</p>
               </div>
             </div>
-            <span className="px-3 py-1 text-xs font-medium bg-green-100 text-green-700 rounded-full">
+            <span className="px-6 py-3 text-xs font-medium bg-gradient-to-br from-blue-500 via-indigo-500 to-green-400 rounded-full">
               Active
             </span>
           </div>
